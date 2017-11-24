@@ -5,17 +5,14 @@ import App from './App'
 import router from './router'
 import Vuex from 'vuex'
 
-import uploader from './uploader'
+import uploader from 'vue-easy-uploader'
 
 Vue.use(Vuex)
-
-Vue.use(uploader.plugin)
 
 Vue.config.productionTip = false
 
 let store = new Vuex.Store({})
-
-store.registerModule('imgstore', uploader.store)
+Vue.use(uploader, store)
 
 /* eslint-disable no-new */
 let vue = new Vue({
@@ -27,4 +24,3 @@ let vue = new Vue({
 })
 
 window.vue = vue
-console.log(vue)
