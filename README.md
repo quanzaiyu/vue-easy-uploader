@@ -5,7 +5,22 @@
   <a href="https://www.npmjs.com/package/vue-easy-uploader"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
 </p>
 
-> 一个基于Vue的多文件上传插件，目前支持常见图片的上传，后续版本会加入其他文件的支持。
+> 一个基于Vue的移动端多文件上传插件，支持常见图片的上传。
+
+![](https://raw.githubusercontent.com/quanzaiyu/vue-easy-uploader/master/static/05.png)
+
+![](https://raw.githubusercontent.com/quanzaiyu/vue-easy-uploader/master/static/06.png)
+
+
+
+### 特性
+
+- 多文件上传
+- 上传图片预览
+- 上传状态监测
+- 删除指定图片
+- 清空图片
+- 重新上传
 
 
 
