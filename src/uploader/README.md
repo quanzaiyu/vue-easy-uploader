@@ -37,7 +37,7 @@ npm i vue-easy-uploader --save
 在入口文件`main.js`中加入以下代码:
 
 ```js
-import App from './App'
+import Vue from 'vue'
 import Vuex from 'vuex'
 import uploader from 'vue-easy-uploader'
 
